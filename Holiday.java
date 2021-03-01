@@ -22,18 +22,21 @@ this.month=month;
 public void setDay(int day) {
 	this.day=day;
 }
+public void setName(String name){
+	this.name=name;
+}
 //------------------------------------------------
 //Getters
 
 public String getMonth() {
-	return this.month;
+	return "The Month Of The Holiday: "+this.month;
 }
 
 public String getName() {
-	return this.name;
+	return "The Name Of The Holiday: "+this.name;
 }
-public int getDay() {
-	return this.day;
+public String getDay() {
+	return "The Day Of The Holiday: "+this.day;
 }
 
 //------------------------------------------------
