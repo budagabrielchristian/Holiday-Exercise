@@ -29,14 +29,14 @@ public void setName(String name){
 //Getters
 
 public String getMonth() {
-	return "The Month Of The Holiday: "+this.month;
+	return "The Month Of The Holiday: "+this.month+'('+this.name+')';
 }
 
 public String getName() {
-	return "The Name Of The Holiday: "+this.name;
+	return "The Name Of The Holiday: "+this.name+'('+this.name+')';
 }
 public String getDay() {
-	return "The Day Of The Holiday: "+this.day;
+	return "The Day Of The Holiday: "+this.day+'('+this.name+')';
 }
 
 //------------------------------------------------
